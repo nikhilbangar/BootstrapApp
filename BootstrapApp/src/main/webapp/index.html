@@ -1,7 +1,8 @@
 <html>
 <head>
-	<link href="css/bootstrap.min.css">
-	<link href="">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/theme.css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script> 
 </head>
@@ -25,6 +26,60 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
+    </div>
+    <div class="container theme-showcase" role="main">
+    	<div class="jumbotron">
+    		<table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Keys</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Key1</td>
+          <td>
+          <ul class="nav nav-bar">
+          	<li class="dropdown">
+              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">Simple JSON</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">Something else here</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">Separated link</a></li>
+              </ul>
+            </li>
+            </ul>
+          </td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@TwBootstrap</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    	</div>
     </div>
 </body>
 </html>
